@@ -1,0 +1,43 @@
+@import "_buttons";
+@import "header.scss";
+@import "hero.scss";
+@import "portfolio.scss";
+@import "skills.scss";
+@import "about.scss";
+@import "contact.scss";
+
+
+:root {
+    --default-color: #fff;
+
+    --text-color: #2b2d42;
+    --text-color-alt: #8d99ae;
+
+    --primary-color: #ef233c;
+    --primary-alt-color: #d90429;
+
+}
+
+.bg-container {
+    background: var(--default-color);
+}
+
+.title {
+    color: var(--text-color);
+}
+
+.subtitle {
+    color: var(--text-color-alt);
+}
+
+.subtitle-alt {
+    color: var(--default-color);
+}
+
+.primary-color2 {
+    color: var(--primary-color);
+}
+
+.primary-alt-color :hover {
+    color: var(--primary-alt-color);
+}

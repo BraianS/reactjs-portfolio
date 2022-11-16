@@ -1,0 +1,21 @@
+.nav {
+
+    &__brand {
+        :hover {
+            color: var(--primary-color);
+        }
+    }
+
+    &__item {
+
+        padding-left: 0.35rem;
+        cursor: pointer;
+        :hover {
+            color: var(--primary-color);
+        }
+    }
+
+    &--active {
+        color: var(--primary-alt-color);
+    }
+}

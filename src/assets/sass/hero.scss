@@ -1,0 +1,11 @@
+.hero {
+
+    &__button {
+        color: var(--default-color);
+        background-color: var(--primary-color);
+    }
+
+    &__image {
+        background-color: var(--primary-color);
+    }
+}

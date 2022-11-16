@@ -1,0 +1,32 @@
+.box img {
+    width: 540px;
+    height: 536px;
+    object-fit: cover;
+    animation: ease;
+    animation: 4s;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.7s;
+
+    &:hover {
+        border-radius: 0.7rem;
+        transform: rotate(-20deg) scale(0.7);
+    }
+
+}
+
+.portfolio {
+
+    &__category{
+        color: var(--primary-color);
+    }
+
+    &__name {
+        color: var(--primary-color);
+
+        &:hover {
+            color:var(--primary-alt-color);
+        }
+    }
+}
+

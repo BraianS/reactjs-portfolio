@@ -1,0 +1,9 @@
+$mongodb : #60be86;
+
+.skill {
+   transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+}

@@ -1,0 +1,6 @@
+.contact {
+
+    &__button {
+        @extend .button-basic;
+    }
+}

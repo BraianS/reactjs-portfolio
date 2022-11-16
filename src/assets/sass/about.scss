@@ -1,0 +1,27 @@
+.about {
+  
+   
+
+   &__image {
+      object-fit: cover;
+      width: 500px;
+      height: 665px;
+      border-radius: 15%;
+   }
+
+   &__button {
+      background-color:var(--primary-color);
+      color:var(--default-color);
+
+      &:hover {
+         background-color: var(--primary-alt-color);
+      }
+   } 
+
+}
+
+.responsive,
+.right {
+   border: 1px solid red;
+}
+
