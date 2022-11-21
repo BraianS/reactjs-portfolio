@@ -3,10 +3,6 @@ import aboutme from "../../assets/img/profile.jpg";
 
 export const About = () => {
 
-
-    const githubLink = "https://github.com/BraianS";
-    const twitterLink = "https://twitter.com/braiancode"
-    const linkedInLink = "https://www.linkedin.com/in/braian-n-silva/";
     const curriculo = "https://docs.google.com/document/d/1sH5X8m2qA54jspg8gzoQ9T6r3iLMOflr/edit?usp=sharing&ouid=106696477638908142346&rtpof=true&sd=true";
 
     return (
