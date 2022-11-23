@@ -1,6 +1,5 @@
 
 import { useState } from "react"
-import { FaBars } from "react-icons/fa"
 import { RiMenuLine, RiCloseLine } from "react-icons/ri";
 import { Link } from "react-scroll";
 
