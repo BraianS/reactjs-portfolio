@@ -25,11 +25,11 @@ export const Skills = () => {
     return (
         <div className="w-full h-screen m-auto" id="skill">
             <div className="flex flex-col justify-center items-center max-w-[1240px] m-auto h-full">
-                <h1 className="pt-5 pb-5 text-5xl font-bold">Minhas habilidades & Conhecimentos</h1>
+                <h1 className="pt-5 pb-5 text-5xl font-bold" data-reveal="left" data-reveal-delay="0.25s">Minhas habilidades & Conhecimentos</h1>
 
-                <p className="pb-5 text-lg">Tecnologias e linguagens que uso para fazer meu projetos todos os dias</p>
+                <p className="pb-5 text-lg" data-reveal="right" data-reveal-delay="0.5s">Tecnologias e linguagens que uso para fazer meu projetos todos os dias</p>
 
-                <div className="grid justify-between grid-cols-4 md:grid-cols-6 gap-y-[10px] md:gap-y-[20px] "  >
+                <div className="grid justify-between grid-cols-4 md:grid-cols-6 gap-y-[10px] md:gap-y-[20px]" data-reveal-delay="0.5s" data-reveal="bottom" >
                     <div className="flex flex-col items-center p-1 " >
                         <SiHtml5 fill={html5Color} className="text-6xl skill" />
                         <h4 className="pt-1">HTML-5 </h4>
@@ -84,8 +84,8 @@ export const Skills = () => {
                     </div>
                 </div>
                 <div className="flex flex-col pt-7">
-                    <p className="pb-5">Aprendendo atualmente</p>
-                    <div className="flex flex-col items-center  " >
+                    <p className="pb-5" data-reveal-delay="0.5s" data-reveal="left">Aprendendo atualmente</p>
+                    <div className="flex flex-col items-center  " data-reveal-delay="0.75s" data-reveal="right" >
                         <SiReact fill={ReactColor} className="text-6xl skill " />
                         <h4 className="pt-1">React</h4>
                     </div>

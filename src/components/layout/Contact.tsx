@@ -50,7 +50,7 @@ export const Contact = () => {
 
 
 
-                <form className="bg-white shadowmd rounded px-8 w-full flex flex-col  " onSubmit={sendEmail} >
+                <form className="bg-white shadowmd rounded px-8 w-full flex flex-col  " data-reveal-delay="0.5s" data-reveal="top" onSubmit={sendEmail} >
                     <h1 className="pb-6 text-5xl text-center font-bold pt-5">Contact Form</h1>
 
                     <div className="mb-4">
@@ -73,8 +73,8 @@ export const Contact = () => {
 
                 </form>
 
-                <h1 className="text-5xl mt-10 mb-5 font-bold  ">Get in touch</h1>
-                <div className="flex   ">
+                <h1 className="text-5xl mt-10 mb-5 font-bold  " data-reveal-delay="0.5s" data-reveal="top">Get in touch</h1>
+                <div className="flex   "  data-reveal-delay="0.5s" data-reveal="left">
                     <a className="flex-row pr-5 flex w-full font-semibold pb-4 hover:bg-slate-100 hover:rounded-lg" href={linkTwitter}>
                         <SiTwitter className=" text-3xl " fill={twitterColor} />
                     </a>

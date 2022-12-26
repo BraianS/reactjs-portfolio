@@ -77,8 +77,8 @@ export const Portfolio = () => {
         }
     }, [currentCategory]);
 
-    const categoriesButton = categories.map((category) => {
-        return <button className="text-2xl pl-5 pr-5  "
+    const categoriesButton = categories.map((category, index) => {
+        return <button className="text-2xl pl-5 pr-5 " data-reveal="top" data-reveal-delay="0.75s"
             style={
                 currentCategory === category ?
                     {
@@ -106,7 +106,7 @@ export const Portfolio = () => {
         <div className="w-full h-auto m-auto " id="portfolio">
 
             <div className="flex items-center flex-col  pb-16">
-                <h1 className="text-5xl font-bold ">
+                <h1 className="text-5xl font-bold " data-reveal="top" data-reveal-delay="0.5s">
                     Portfolio
                 </h1>
                 <div className="pt-5">
