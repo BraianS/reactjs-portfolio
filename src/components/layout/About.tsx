@@ -6,7 +6,7 @@ export const About = () => {
     const curriculo = "https://docs.google.com/document/d/1sH5X8m2qA54jspg8gzoQ9T6r3iLMOflr/edit?usp=sharing&ouid=106696477638908142346&rtpof=true&sd=true";
 
     return (
-        <div className=" w-full h-screen m-auto border border-red-500" id="about">
+        <div className=" w-full h-screen m-auto" id="about">
             <div className="about flex flex-col sm:flex-row  items-center max-w-[1240px] m-auto h-full ">
                 <img className="h-4/6 sm:h-5/6 object-cover rounded-[15%] p-10 " src={aboutme} alt="about me" data-reveal-delay="0.5s" data-reveal="left"/>
                 <div className="about__right">
