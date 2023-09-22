@@ -31,10 +31,13 @@ function Layout() {
     })
 
     useEffect(() => {
-        const revealDelayElements = document.querySelectorAll("[data-reveal-delay]");
+        const revealDelayElements = document.querySelectorAll<HTMLElement>("[data-reveal-delay]") ;
 
         for (let i = 0, len = revealDelayElements.length; i < len; i++) {
-            revealDelayElements[i].style.transitionDelay = revealDelayElements[i].dataset.revealDelay;
+         
+
+
+            revealDelayElements[i].style.transitionDelay = revealDelayElements[i].dataset.revealDelay || "";
         }
     })
 
