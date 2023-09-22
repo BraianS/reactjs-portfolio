@@ -6,9 +6,9 @@ import { PortfolioItem } from "./PortfolioItem";
 
 import angRssReader from "../../assets/img/ang-rss-reader.png";
 import fullStackSpringBootgAngularBlog from "../../assets/img/full-stack-spring-blog-and-angular-blog.jpg";
-import angRsskanbanSpring from "../../assets/img/kanbanSpring.gif";
-import mangasTech from "../../assets/img/mangasTech.png";
-import instagram from "../../assets/img/instagram.jpg";
+import angRsskanbanSpring from "../../assets/img/kanbanSpring.png";
+import mangasTech from "../../assets/img/mangasTech.webp";
+import instagram from "../../assets/img/instagram.webp";
 
 import portfolio from "../../assets/img/portfolio.png";
 import { Categories, Projects } from "../../assets/interface/Projects.interface";
