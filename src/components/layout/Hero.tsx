@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import profile from '../../assets/img/me.png';
+import profile from '../../assets/img/me.webp';
 
 
 export const Hero = () => {
