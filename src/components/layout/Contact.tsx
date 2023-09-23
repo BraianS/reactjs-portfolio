@@ -1,10 +1,10 @@
 import React, { useRef, useState } from "react";
 import emailjs from 'emailjs-com';
 
-import { SiTwitter, SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
-import * as SimpleIcons from "react-icons/si";
-
-
+import { SiTwitter} from "@react-icons/all-files/si/SiTwitter";
+import { SiGithub} from "@react-icons/all-files/si/SiGithub";
+import { SiLinkedin} from "@react-icons/all-files/si/SiLinkedin";
+import { SiInstagram} from "@react-icons/all-files/si/SiInstagram";
 
 export const Contact = () => {
 

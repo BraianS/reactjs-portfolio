@@ -1,9 +1,19 @@
 import React from "react";
 
-import {
-    SiMongodb, SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact,
-    SiAngular, SiSpring, SiMysql, SiDocker, SiGit, SiGithub, SiTailwindcss
-} from "react-icons/si";
+import {SiMongodb} from "@react-icons/all-files/si/SiMongodb";
+import {SiHtml5} from "@react-icons/all-files/si/SiHtml5";
+import {SiCss3} from "@react-icons/all-files/si/SiCss3";
+import {SiJavascript} from "@react-icons/all-files/si/SiJavascript";
+import {SiTypescript} from "@react-icons/all-files/si/SiTypescript";
+import {SiReact} from "@react-icons/all-files/si/SiReact";
+import {SiAngular} from "@react-icons/all-files/si/SiAngular";
+import {SiSpring} from "@react-icons/all-files/si/SiSpring";
+import {SiMysql,} from "@react-icons/all-files/si/SiMysql";
+import {SiDocker} from "@react-icons/all-files/si/SiDocker";
+import {SiGit} from "@react-icons/all-files/si/SiGit";
+import {SiGithub} from "@react-icons/all-files/si/SiGithub";
+import {SiTailwindcss} from "@react-icons/all-files/si/SiTailwindcss";
+
 
 export const Skills = () => {
 

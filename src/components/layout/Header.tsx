@@ -1,6 +1,7 @@
 
-import { useState } from "react"
-import { RiMenuLine, RiCloseLine } from "react-icons/ri";
+import { useState } from "react" //   react-icons/ri
+import { RiMenuLine } from "@react-icons/all-files/ri/RiMenuLine";
+import {  RiCloseLine } from "@react-icons/all-files/ri/RiCloseLine";
 import { Link } from "react-scroll";
 
 export function Header() {
