@@ -116,7 +116,7 @@ export const Portfolio = () => {
                 </div>
             </div>
 
-            <div className="flex flex-wrap max-w-[1240px] m-auto">
+            <div className="flex flex-wrap max-w-[1240px] m-auto" data-reveal="top">
                 {
                     categorias.map(project => (
 
