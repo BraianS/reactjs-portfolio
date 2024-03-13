@@ -1,24 +1,16 @@
 import React, { useRef, useState } from "react";
 import emailjs from 'emailjs-com';
 
-import { SiTwitter} from "@react-icons/all-files/si/SiTwitter";
-import { SiGithub} from "@react-icons/all-files/si/SiGithub";
-import { SiLinkedin} from "@react-icons/all-files/si/SiLinkedin";
-import { SiInstagram} from "@react-icons/all-files/si/SiInstagram";
+import { SiGithub } from "@react-icons/all-files/si/SiGithub";
+import { SiLinkedin } from "@react-icons/all-files/si/SiLinkedin";
 
 export const Contact = () => {
 
-
-    const twitterColor = "#1DA1F2";
     const gitHubColor = "#181717";
     const linkedInColor = "#0A66C2";
-    const intagramColor = "#E4405F";
 
-    const linkTwitter = "https://twitter.com/braiancode";
     const gitHubLink = "https://github.com/BraianS";
     const linkedInLink = "https://www.linkedin.com/in/braian-n-silva/";
-    const instagramLink = "https://www.instagram.com/braianog/";
-
     const row = 4;
 
     const [inputs, setInputs] = useState();
@@ -36,10 +28,7 @@ export const Contact = () => {
 
             });
         e.target.reset()
-
-
     }
-
 
     const formRef = useRef<HTMLFormElement | null>(null);
 
@@ -74,26 +63,16 @@ export const Contact = () => {
                 </form>
 
                 <h1 className="text-5xl mt-10 mb-5 font-bold  " data-reveal-delay="0.5s" data-reveal="top">Get in touch</h1>
-                <div className="flex   "  data-reveal-delay="0.5s" data-reveal="left">
-                    <a className="flex-row pr-5 flex w-full font-semibold pb-4 hover:bg-slate-100 hover:rounded-lg" href={linkTwitter}>
-                        <SiTwitter className=" text-3xl " fill={twitterColor} />
-                    </a>
+                <div className="flex   " data-reveal-delay="0.5s" data-reveal="left">
+
                     <a className="flex-row pr-5 flex w-full font-semibold pb-4 hover:bg-slate-100 hover:rounded-lg" href={gitHubLink}>
                         <SiGithub className="text-3xl" fill={gitHubColor} />
                     </a>
                     <a className="flex-row pr-5 flex w-full font-semibold pb-4 hover:bg-slate-100 hover:rounded-lg" href={linkedInLink}>
                         <SiLinkedin className="text-3xl" fill={linkedInColor} />
                     </a>
-                    <a className="flex-row flex w-full font-semibold pb-4 hover:bg-slate-100 hover:rounded-lg" href={instagramLink}>
-                        <SiInstagram className="text-3xl" fill={intagramColor} />
-                    </a>
                 </div>
             </div>
         </div>
-
-
-
-
-
     )
 }

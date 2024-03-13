@@ -1,17 +1,12 @@
 import React, { useState, useEffect } from "react";
 
-
-import portoflio from "../../assets/portoflio.jpg";
 import { PortfolioItem } from "./PortfolioItem";
 
 import angRssReader from "../../assets/img/ang-rss-reader.png";
 import fullStackSpringBootgAngularBlog from "../../assets/img/full-stack-spring-blog-and-angular-blog.jpg";
 import angRsskanbanSpring from "../../assets/img/kanbanSpring.png";
 import mangasTech from "../../assets/img/mangasTech.webp";
-import instagram from "../../assets/img/instagram.webp";
-
-import portfolio from "../../assets/img/portfolio.png";
-import { Categories, Projects } from "../../assets/interface/Projects.interface";
+import { Projects } from "../../assets/interface/Projects.interface";
 
 export const Portfolio = () => {
 
@@ -39,14 +34,7 @@ export const Portfolio = () => {
             title: "MangasTech",
             link: "https://github.com/BraianS/MangasTech",
             imageSrc: mangasTech
-        },
-        {
-            type: "Photography",
-            title: "Instagram",
-            link: "https://www.instagram.com/braianog/",
-            imageSrc: instagram
-        },
-
+        }
     ];
 
 
@@ -56,7 +44,6 @@ export const Portfolio = () => {
     const categories: any[] = [
         "All",
         "Web",
-        "Photography",
         "Full Stack"
     ]
 
