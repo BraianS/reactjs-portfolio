@@ -1,9 +1,10 @@
 import React from "react";
 import aboutme from "../../assets/img/profile.jpg";
+import { SiLinkedin } from "@react-icons/all-files/si/SiLinkedin";
 
 export const About = () => {
 
-    const curriculo = "https://docs.google.com/document/d/1sH5X8m2qA54jspg8gzoQ9T6r3iLMOflr/edit?usp=sharing&ouid=106696477638908142346&rtpof=true&sd=true";
+    const linkedin = "https://www.linkedin.com/in/braian-n-silva/"
 
     return (
         <div className=" w-full h-screen m-auto" id="about">
@@ -15,8 +16,9 @@ export const About = () => {
                         Sou formado em <span className="text-red-500 font-semibold"> Analista de Sistemas</span> pela <span className="text-red-500 font-semibold">Anhanguera de Sorocaba</span>, amo desenvolver, novas tecnologias e aprender coisas novas.
                         Atualmente criei este novo Portfólio em ReactJs para aprender mais sobre esta ferramente incrível, onde é uma biblioteca JavaScript para criação de interfaces de Usuários.
                     </p>
-
-                    <button className="mt-7 p-3 font-semibold text-2xl about__button rounded" data-reveal-delay="0.5s" data-reveal="bottom" onClick={() => window.location.href = curriculo}>Download CV</button>
+                    <a href={linkedin} target="_blank" rel="noopener noreferrer" className="p-4">
+                        <SiLinkedin fill="#3178C6" className="text-6xl hover:opacity-75 transition-opacity cursor-pointer"/>
+                    </a>
                 </div>
 
             </div>
